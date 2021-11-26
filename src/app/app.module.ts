@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { SignupComponent } from './signup/signup.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SignupComponent } from './signup/signup.component';
     LandingPageComponent,
     LoginPageComponent,
     SignupComponent,
+    ForgotPasswordComponent,
     
   ],
   imports: [
