@@ -1,11 +1,13 @@
 * {box-sizing: border-box}
 
 body {
-  background-color: #ddd;
+  
+  background-color: #3598dc;
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0 ;
-  place-content: center;
+  margin-left:45px;
+  padding:0;
+  
+  
 }
  .container{
    position: absolute;
@@ -53,7 +55,7 @@ body {
   height: 35px;
   margin-top: 20px;
   border: none;
-  background-color: #04AA6D;
+  background-color: #3598dc;
   color: white;
   font-size: 18px;
   }
