@@ -1,0 +1,10 @@
+ 
+.background-image{
+	background-image: ur("/saree.img8.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 200px;
+	height: 200px;
+
+} 
