@@ -9,7 +9,6 @@ const routes: Routes = [
   {path:'',component:LoginPageComponent},
   {path:'signup',component:SignupComponent},
   {path:'Forgot',component:ForgotPasswordComponent},
-  {path:'Login',component:LoginPageComponent},
   {path:'landing-page',component:LandingPageComponent
 }
 ];
