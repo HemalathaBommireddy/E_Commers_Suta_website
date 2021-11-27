@@ -8,7 +8,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 const routes: Routes = [
   {path:'',component:LoginPageComponent},
   {path:'signup',component:SignupComponent},
-  {path:'forgot-password',component:ForgotPasswordComponent},
+  {path:'Forgot',component:ForgotPasswordComponent},
+  {path:'Login',component:LoginPageComponent},
   {path:'landing-page',component:LandingPageComponent
 }
 ];
