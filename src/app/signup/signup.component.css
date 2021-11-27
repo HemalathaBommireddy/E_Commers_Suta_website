@@ -4,22 +4,15 @@ body {
   
   background-color: #ddd;
   background-size:cover;
-  
-  margin-left:45px;
-  padding:0;
-  
-  
+  margin-left:500px;
+  margin-right: 500px;
+  padding:0;   
 }
  .container{
    position: relative;
-   z-index: 1;
-   background:rgba(7,195,0.8);
-   
-   
-    /* Center form on page horizontally  */
-    left: 40%; 
-    margin-left: -150px;
-   
+   /* Center form on page horizontally  */
+    left: 20%; 
+    margin-left: -150px;  
  }  
   /* Add padding to container elements */
  .container
@@ -27,7 +20,7 @@ body {
   width:360px;
   height: 600px;
   margin: 0 auto 100px;
-  background-color:pink;
+  background-color:white;
   border-radius: 3px;
   padding: 45px;
  }
