@@ -2,7 +2,8 @@
 
 body {
   
-  background-color: #3598dc;
+  background-color: #ddd;
+  background-size:cover;
   
   margin-left:45px;
   padding:0;
@@ -10,9 +11,11 @@ body {
   
 }
  .container{
-   position: absolute;
-   width: 300px;
-   height:300px;
+   position: relative;
+   z-index: 1;
+   background:rgba(7,195,0.8);
+   
+   
     /* Center form on page horizontally  */
     left: 40%; 
     margin-left: -150px;
@@ -21,11 +24,12 @@ body {
   /* Add padding to container elements */
  .container
   {
-  width: 360px;
+  width:360px;
   height: 600px;
-  margin: auto;
-  background-color: white;
+  margin: 0 auto 100px;
+  background-color:pink;
   border-radius: 3px;
+  padding: 45px;
  }
   
  h1 {
@@ -55,7 +59,7 @@ body {
   height: 35px;
   margin-top: 20px;
   border: none;
-  background-color: #3598dc;
+  background-color:navy;
   color: white;
   font-size: 18px;
   }
