@@ -7,6 +7,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { SignupComponent } from './signup/signup.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     LoginPageComponent,
     SignupComponent,
     ForgotPasswordComponent,
+    CategoriesComponent,
     
   ],
   imports: [
