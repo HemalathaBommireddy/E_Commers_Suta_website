@@ -1,23 +1,35 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+	box-sizing: border-box;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
   }
   
   /* Clearfix (clear floats) */
   .row::after {
-    content: "";
-    clear: both;
-    display: table;
+	content: "";
+	clear: both;
+	display: table;
   }
-  h1
-{
- text-align:center;
- color:lightslategrey;
+  h1{
+	  text-align: center;
+	  font: size 45px;
+	  color: purple;
+  }
+  h2{
+    font-size: 30px;
+    color: #777;
+    margin-bottom: 20px;
 }
-
-  
+h3{
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 20px;
+}

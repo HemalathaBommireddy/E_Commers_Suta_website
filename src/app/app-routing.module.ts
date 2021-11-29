@@ -5,6 +5,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { ProductComponent } from './product/product.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'sub',component:LoginPageComponent},
   {path:'login',component:LoginPageComponent},
   {path:'categories',component:CategoriesComponent},
+  {path:'product',component:ProductComponent},
   
 ];
 
