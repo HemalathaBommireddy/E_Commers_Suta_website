@@ -14,4 +14,10 @@
     clear: both;
     display: table;
   }
+  h1
+{
+ text-align:center;
+ color:lightslategrey;
+}
+
   
