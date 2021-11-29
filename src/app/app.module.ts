@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { ProductComponent } from './product/product.component';
+import { Product1HandloomComponent } from './product1-handloom/product1-handloom.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ProductComponent } from './product/product.component';
     ForgotPasswordComponent,
     CategoriesComponent,
     ProductComponent,
+    Product1HandloomComponent,
     
   ],
   imports: [
