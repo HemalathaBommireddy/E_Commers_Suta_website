@@ -6,6 +6,8 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { ProductComponent } from './product/product.component';
+import { Product1HandloomComponent } from './product1-handloom/product1-handloom.component';
+
 
 
 const routes: Routes = [
@@ -17,6 +19,7 @@ const routes: Routes = [
   {path:'login',component:LoginPageComponent},
   {path:'categories',component:CategoriesComponent},
   {path:'product',component:ProductComponent},
+  {path:'product1-handloom',component:Product1HandloomComponent},
   
 ];
 
