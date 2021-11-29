@@ -10,6 +10,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { CategoriesComponent } from './categories/categories.component';
 import { ProductComponent } from './product/product.component';
 import { Product1HandloomComponent } from './product1-handloom/product1-handloom.component';
+import { Product2Component } from './product2/product2.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { Product1HandloomComponent } from './product1-handloom/product1-handloom
     CategoriesComponent,
     ProductComponent,
     Product1HandloomComponent,
+    Product2Component,
     
   ],
   imports: [
