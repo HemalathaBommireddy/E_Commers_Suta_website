@@ -8,6 +8,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { ProductComponent } from './product/product.component';
 import { Product1HandloomComponent } from './product1-handloom/product1-handloom.component';
 import { Product2Component } from './product2/product2.component';
+import { Product3Component } from './product3/product3.component';
 
 
 
@@ -22,7 +23,7 @@ const routes: Routes = [
   {path:'product',component:ProductComponent},
   {path:'product1-handloom',component:Product1HandloomComponent},
   {path:'product2',component:Product2Component},
-  
+  {path:'product3',component:Product3Component},
 ];
 
 @NgModule({
