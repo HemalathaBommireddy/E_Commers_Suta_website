@@ -13,6 +13,7 @@ import { Product1HandloomComponent } from './product1-handloom/product1-handloom
 import { Product2Component } from './product2/product2.component';
 import { Product3Component } from './product3/product3.component';
 import { Product4Component } from './product4/product4.component';
+import { Product5Component } from './product5/product5.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { Product4Component } from './product4/product4.component';
     Product2Component,
     Product3Component,
     Product4Component,
+    Product5Component,
     
   ],
   imports: [

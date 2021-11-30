@@ -10,6 +10,8 @@ import { Product1HandloomComponent } from './product1-handloom/product1-handloom
 import { Product2Component } from './product2/product2.component';
 import { Product3Component } from './product3/product3.component';
 import { Product4Component } from './product4/product4.component';
+import { Product5Component } from './product5/product5.component';
+
 
 
 
@@ -26,6 +28,7 @@ const routes: Routes = [
   {path:'product2',component:Product2Component},
   {path:'product3',component:Product3Component},
   {path:'product4',component:Product4Component},
+  {path:'product5',component:Product5Component},
 ];
 
 @NgModule({
