@@ -8,7 +8,7 @@
   }
   
   /* Clearfix (clear floats) */
-  .row::after {
+  .container::after {
 	content: "";
 	clear: both;
 	display: table;
@@ -33,3 +33,13 @@ h4{
     color: #555;
     margin-bottom: 20px;
 }
+h5{
+  font-size: 30px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.row2::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
