@@ -19,7 +19,7 @@ export class SignupComponent implements OnInit {
     Email: true,
     Password: true,
     ConformPassword:true,
-    PhoneNumber:true
+  
   };
   constructor() { }
 
@@ -37,7 +37,7 @@ export class SignupComponent implements OnInit {
       }
     } else if (type === 'Email') {
       this.valid.Email = emailPattern.test(this.data.Email);
-    } else if (type === ('conformPassword' || 'Password')) {
+    } else if (type === ('ConformPassword' || 'Password')) {
       if (this.data.Password === this.data.ConformPassword) {
         this.valid.Password = true;
       } else {
@@ -57,11 +57,8 @@ export class SignupComponent implements OnInit {
       this.data.ConformPassword = event.target.value;
     }
     this.validate(type);
-  }
-
-
-   
-  }
+  }   
+}
 
   
 
