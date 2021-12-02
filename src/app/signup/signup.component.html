@@ -1,6 +1,32 @@
 
 <body>
     <h1>SignUp Page</h1>
+    <div class="container">
+        <label><b>UserName:</b></label>
+        <input type="text" placeholder="" (keyup)="onkey($event,'UserName')">
+        <p *ngIf="!valid.UserName" class="text-color-red-900 text-s italic">username should more than 7 characters</p>
+        <label><b>Email:</b></label> 
+        <input type="text" placeholder="" (keyup)="onkey($event,'Email')">
+        <p *ngIf="!valid.Email" class="text-red-400 text-s italic">Your email is incorrect</p>
+         <label for="Password"><b>Password</b></label>
+        <input type="text" placeholder="" (keyup)="onkey($event,'Password')"> 
+        
+        <label for="ConformPasword"><b>ConformPassword</b></label>
+        <input type="text" placeholder="" (keyup)="onkey($event,'ConformPassword')"> 
+        <p *ngIf="!valid.Password" class="text-red-400 text-xs italic">password doesn't match</p>
+
+        <label for="PhoneNumber"><b>PhoneNumber</b></label>
+        <input type="text" placeholder="" name="PhoneNumber" required>
+        <label for="Address"><b>Address</b></label>
+        <input type="text" placeholder="" name="Address" required> 
+        <input routerLink="/sub" type="button" value="Submit"/>
+        <a routerLink="/Login"></a> 
+        <br/>
+    </div>
+</body> 
+
+<!--<body>
+    <h1>SignUp Page</h1>
     <p>Please fill all the fields.</p>
     
     <div class="container">
@@ -20,4 +46,4 @@
         <a routerLink="/Login"></a> 
         <br/>
     </div>
-</body>
+</body> -->
